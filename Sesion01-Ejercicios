@@ -1,0 +1,32 @@
+package com.ejercicios;
+
+public class Tema1 {
+
+    public static void main(String[] args) {
+
+        // Tipos de datos vistos y de estos los más comunes
+        byte variable1 = 1; // número entero corto
+        short variable2 = 10; // número entero corto un poco más largo que byte
+        int entero = 100; // número entero (Común)
+        long largo = 10005; // número entero largo (Común)
+        float decimal = 1.5f; // número decimal corto
+        double decimal1 = 100.2d; // número decimal largo (Común)
+        boolean casado = true; // Booleano (Común)
+        boolean divorciado = false; // Booleano (Común) repetido para ver los 2 estados.
+        char caracter = 'z'; // Carácter simple entre comillas simples
+        String nombreCompleto = "Pepito Perez"; // Cadena de texto entre comillas dobles (Común)
+
+        // Imprimimos en consola los tipos de datos arriba definidos. 
+        System.out.println(variable1);
+        System.out.println(variable2);
+        System.out.println(entero);
+        System.out.println(largo);
+        System.out.println(decimal);
+        System.out.println(decimal1);
+        System.out.println(casado);
+        System.out.println(divorciado);
+        System.out.println(caracter);
+        System.out.println(nombreCompleto);
+        
+    }
+}
